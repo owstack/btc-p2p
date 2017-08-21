@@ -11,6 +11,10 @@ Btccore P2P
 
 See [the main btccore repo](https://github.com/owstack/btccore) for more information.
 
+## Attribution
+
+This repository was created by copy forking [bitcore-p2p 8d756c6] (https://github.com/bitpay/bitcore-p2p/commit/8d756c6c560f097a57585d4fd3f03d57eeb603cd).
+
 ## Getting Started
 
 ```sh
