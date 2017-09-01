@@ -1,7 +1,7 @@
 {
   "name": "btccore-p2p",
   "version": "0.0.1",
-  "description": "Interface to the bitcoin P2P network for btccore",
+  "description": "Interface to the bitcoin P2P network for btccore.",
   "author": "Open Wallet Stack",
   "main": "index.js",
   "scripts": {

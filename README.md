@@ -1,5 +1,3 @@
-<img src="http://btccore.io/css/images/btccore-p2p.svg" alt="btccore payment protocol" height="35" width="102">
-
 Btccore P2P
 =======
 
@@ -7,13 +5,13 @@ Btccore P2P
 [![Build Status](https://img.shields.io/travis/owstack/btccore-p2p.svg?branch=master&style=flat-square)](https://travis-ci.org/owstack/btccore-p2p)
 [![Coverage Status](https://img.shields.io/coveralls/owstack/btccore-p2p.svg?style=flat-square)](https://coveralls.io/r/owstack/btccore-p2p?branch=master)
 
-`btccore-p2p` adds [Bitcoin protocol](https://en.bitcoin.it/wiki/Protocol_documentation) support for Btccore.
+Adds [Bitcoin protocol](https://en.bitcoin.it/wiki/Protocol_documentation) support for Btccore.
 
 See [the main btccore repo](https://github.com/owstack/btccore) for more information.
 
 ## Attribution
 
-This repository was created by copy forking [bitcore-p2p 8d756c6] (https://github.com/bitpay/bitcore-p2p/commit/8d756c6c560f097a57585d4fd3f03d57eeb603cd).
+This repository was created by copy forking [bitcore-p2p 8d756c6](https://github.com/bitpay/bitcore-p2p/commit/8d756c6c560f097a57585d4fd3f03d57eeb603cd).
 
 ## Getting Started
 
