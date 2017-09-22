@@ -19,8 +19,8 @@
     "url": "https://github.com/owstack/btccore-p2p.git"
   },
   "dependencies": {
+    "bcoin": "1.0.0-beta.14",
     "btccore-lib": "git://github.com/owstack/btccore-lib.git",
-    "bcoin": "1.0.0-beta.12",
     "bloom-filter": "^0.2.0",
     "buffers": "owstack/node-buffers",
     "socks5-client": "^0.3.6"
