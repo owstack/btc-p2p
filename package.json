@@ -2,7 +2,6 @@
   "name": "btccore-p2p",
   "version": "0.0.1",
   "description": "Interface to the bitcoin P2P network for btccore.",
-  "author": "Open Wallet Stack",
   "main": "index.js",
   "scripts": {
     "lint": "gulp lint",
@@ -19,17 +18,17 @@
     "url": "https://github.com/owstack/btccore-p2p.git"
   },
   "dependencies": {
-    "bcoin": "1.0.0-beta.14",
-    "btccore-lib": "git://github.com/owstack/btccore-lib.git",
+    "bcoin": "1.0.0-beta.12",
+    "btccore-lib": "https://github.com/owstack/btccore-lib.git",
     "bloom-filter": "^0.2.0",
-    "buffers": "owstack/node-buffers",
+    "buffers": "https://github.com/owstack/node-buffers",
     "socks5-client": "^0.3.6"
   },
   "devDependencies": {
     "brfs": "^1.2.0",
     "chai": "~1.10.0",
     "gulp": "^3.8.10",
-    "ows-build": "git://github.com/owstack/ows-build.git",
+    "ows-build": "https://github.com/owstack/ows-build.git",
     "sinon": "^1.12.2"
   },
   "license": "MIT"
