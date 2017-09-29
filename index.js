@@ -1,4 +1,6 @@
-var btccore = require('btccore-lib');
-btccore.P2P = require('./lib');
+'use strict';
 
-module.exports = btccore.P2P;
+var btcLib = require('btc-lib');
+btcLib.P2P = require('./lib');
+
+module.exports = btcLib.P2P;

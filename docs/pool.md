@@ -5,8 +5,8 @@ The quickest way to get connected is to run the following:
 
 ```javascript
 
-var Pool = require('btccore-p2p').Pool;
-var Networks = require('btccore-lib').Networks;
+var Pool = require('btc-p2p').Pool;
+var Networks = require('btc-lib').Networks;
 
 var pool = new Pool({network: Networks.livenet});
 

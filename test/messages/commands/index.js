@@ -5,7 +5,7 @@ var expect = require('chai').expect;
 var P2P = require('../../../');
 var Messages = P2P.Messages;
 var sinon = require('sinon');
-var btccore = require('btccore-lib');
+var btcLib = require('btc-lib');
 
 describe('Command Messages', function() {
 
@@ -46,18 +46,18 @@ describe('Command Messages', function() {
   describe('Transaction', function() {
 
     it('should accept a transaction instance as an argument', function() {
-      var tx = new btccore.Transaction();
+      var tx = new btcLib.Transaction();
       var message = messages.Transaction(tx);
-      message.transaction.should.be.instanceof(btccore.Transaction);
+      message.transaction.should.be.instanceof(btcLib.Transaction);
     });
 
     it('should create a transaction instance', function() {
       var message = messages.Transaction();
-      message.transaction.should.be.instanceof(btccore.Transaction);
+      message.transaction.should.be.instanceof(btcLib.Transaction);
     });
 
     it('version should remain the same', function() {
-      var tx = new btccore.Transaction();
+      var tx = new btcLib.Transaction();
       var version = Number(tx.version);
       var message = messages.Transaction(tx);
       message.transaction.version.should.equal(version);
@@ -68,12 +68,12 @@ describe('Command Messages', function() {
   describe('Block', function() {
 
     it('should accept a block instance as an argument', function() {
-      var block = new btccore.Block({
+      var block = new btcLib.Block({
         header: {},
         transactions: []
       });
       var message = messages.Block(block);
-      message.block.should.be.instanceof(btccore.Block);
+      message.block.should.be.instanceof(btcLib.Block);
     });
 
   });

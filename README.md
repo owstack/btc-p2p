@@ -1,13 +1,13 @@
-Btccore P2P
+Btc P2P
 =======
 
-[![NPM Package](https://img.shields.io/npm/v/btccore-p2p.svg?style=flat-square)](https://www.npmjs.org/package/btccore-p2p)
-[![Build Status](https://img.shields.io/travis/owstack/btccore-p2p.svg?branch=master&style=flat-square)](https://travis-ci.org/owstack/btccore-p2p)
-[![Coverage Status](https://img.shields.io/coveralls/owstack/btccore-p2p.svg?style=flat-square)](https://coveralls.io/r/owstack/btccore-p2p?branch=master)
+[![NPM Package](https://img.shields.io/npm/v/btc-p2p.svg?style=flat-square)](https://www.npmjs.org/package/btc-p2p)
+[![Build Status](https://img.shields.io/travis/owstack/btc-p2p.svg?branch=master&style=flat-square)](https://travis-ci.org/owstack/btc-p2p)
+[![Coverage Status](https://img.shields.io/coveralls/owstack/btc-p2p.svg?style=flat-square)](https://coveralls.io/r/owstack/btc-p2p?branch=master)
 
 Adds [Bitcoin protocol](https://en.bitcoin.it/wiki/Protocol_documentation) support for Btccore.
 
-See [the main btccore repo](https://github.com/owstack/btccore) for more information.
+See [the main btc repo](https://github.com/owstack/btc) for more information.
 
 ## Attribution
 
@@ -16,12 +16,12 @@ This repository was created by copy forking [bitcore-p2p 8d756c6](https://github
 ## Getting Started
 
 ```sh
-npm install btccore-p2p
+npm install btc-p2p
 ```
 In order to connect to the Bitcoin network, you'll need to know the IP address of at least one node of the network, or use [Pool](/docs/pool.md) to discover peers using a DNS seed.
 
 ```javascript
-var Peer = require('btccore-p2p').Peer;
+var Peer = require('btc-p2p').Peer;
 
 var peer = new Peer({host: '127.0.0.1'});
 
@@ -47,14 +47,14 @@ peer.on('tx', function(message) {
 });
 ```
 
-Take a look at the [btccore guide](http://btccore.io/guide/peer.html) on the usage of the `Peer` class.
+Take a look at the [btc guide](http://btc.io/guide/peer.html) on the usage of the `Peer` class.
 
 ## Contributing
 
-See [CONTRIBUTING.md](https://github.com/owstack/btccore/blob/master/CONTRIBUTING.md) on the main btccore repo for information about how to contribute.
+See [CONTRIBUTING.md](https://github.com/owstack/btc/blob/master/CONTRIBUTING.md) on the main btc repo for information about how to contribute.
 
 ## License
 
-Code released under [the MIT license](https://github.com/owstack/btccore/blob/master/LICENSE).
+Code released under [the MIT license](https://github.com/owstack/btc/blob/master/LICENSE).
 
-Copyright 2017 Open Wallet Stack Btccore is a trademark maintained by Open Wallet Stack.
+Copyright 2017 Open Wallet Stack.

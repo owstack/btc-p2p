@@ -4,8 +4,8 @@
 
 var should = require('chai').should();
 var utils = require('../../lib/messages/utils');
-var btccore = require('btccore-lib');
-var BufferReader = btccore.encoding.BufferReader;
+var btcLib = require('btc-lib');
+var BufferReader = btcLib.encoding.BufferReader;
 
 describe('Message Utils', function() {
 

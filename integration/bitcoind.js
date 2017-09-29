@@ -6,19 +6,19 @@ var chai = require('chai');
 var should = chai.should();
 var sinon = require('sinon');
 
-var btccore = require('btccore-lib');
-var _ = btccore.deps._;
-var Random = btccore.crypto.Random;
-var BN = btccore.crypto.BN;
-var BufferUtil = btccore.util.buffer;
+var btcLib = require('btc-lib');
+var _ = btc.deps._;
+var Random = btcLib.crypto.Random;
+var BN = btcLib.crypto.BN;
+var BufferUtil = btcLib.util.buffer;
 var p2p = require('../');
 var Peer = p2p.Peer;
 var Pool = p2p.Pool;
-var Networks = btccore.Networks;
+var Networks = btcLib.Networks;
 var Messages = p2p.Messages;
 var Inventory = p2p.Inventory;
-var Block = btccore.Block;
-var Transaction = btccore.Transaction;
+var Block = btcLib.Block;
+var Transaction = btcLib.Transaction;
 
 // config 
 var network = process.env.NETWORK === 'testnet' ? Networks.testnet : Networks.livenet;

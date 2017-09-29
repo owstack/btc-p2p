@@ -4,12 +4,12 @@
 
 var should = require('chai').should();
 
-var btccore = require('btccore-lib');
+var btcLib = require('btc-lib');
 var P2P = require('../');
 var Inventory = P2P.Inventory;
-var BufferUtils = btccore.util.buffer;
-var BufferWriter = btccore.encoding.BufferWriter;
-var BufferReader = btccore.encoding.BufferReader;
+var BufferUtils = btcLib.util.buffer;
+var BufferWriter = btcLib.encoding.BufferWriter;
+var BufferReader = btcLib.encoding.BufferReader;
 
 describe('Inventory', function() {
 
