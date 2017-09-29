@@ -1,7 +1,7 @@
 {
-  "name": "btccore-p2p",
+  "name": "btc-p2p",
   "version": "0.0.1",
-  "description": "Interface to the bitcoin P2P network for btccore.",
+  "description": "Interface to the bitcoin P2P network for btc.",
   "main": "index.js",
   "scripts": {
     "lint": "gulp lint",
@@ -11,14 +11,14 @@
   },
   "keywords": [
     "bitcoin",
-    "btccore"
+    "btc"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/owstack/btccore-p2p.git"
+    "url": "https://github.com/owstack/btc-p2p.git"
   },
   "dependencies": {
-    "btccore-lib": "https://github.com/owstack/btccore-lib",
+    "btc-lib": "https://github.com/owstack/btc-lib",
     "bloom-filter": "^0.2.0",
     "buffers": "https://github.com/owstack/node-buffers",
     "socks5-client": "^0.3.6"
