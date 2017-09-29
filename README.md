@@ -5,7 +5,7 @@ Btc P2P
 [![Build Status](https://img.shields.io/travis/owstack/btc-p2p.svg?branch=master&style=flat-square)](https://travis-ci.org/owstack/btc-p2p)
 [![Coverage Status](https://img.shields.io/coveralls/owstack/btc-p2p.svg?style=flat-square)](https://coveralls.io/r/owstack/btc-p2p?branch=master)
 
-Adds [Bitcoin protocol](https://en.bitcoin.it/wiki/Protocol_documentation) support for Btccore.
+Adds [Bitcoin protocol](https://en.bitcoin.it/wiki/Protocol_documentation) support for Btc-node.
 
 See [the main btc repo](https://github.com/owstack/btc) for more information.
 
