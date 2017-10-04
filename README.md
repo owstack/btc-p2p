@@ -1,6 +1,8 @@
 Btc P2P
 =======
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/owstack/btc-p2p.svg)](https://greenkeeper.io/)
+
 [![NPM Package](https://img.shields.io/npm/v/btc-p2p.svg?style=flat-square)](https://www.npmjs.org/package/btc-p2p)
 [![Build Status](https://img.shields.io/travis/owstack/btc-p2p.svg?branch=master&style=flat-square)](https://travis-ci.org/owstack/btc-p2p)
 [![Coverage Status](https://img.shields.io/coveralls/owstack/btc-p2p.svg?style=flat-square)](https://coveralls.io/r/owstack/btc-p2p?branch=master)
