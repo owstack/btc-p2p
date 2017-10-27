@@ -4,7 +4,7 @@
 
 var should = require('chai').should();
 
-var btcLib = require('btc-lib');
+var btcLib = require('@owstack/btc-lib');
 var P2P = require('../');
 var Inventory = P2P.Inventory;
 var BufferUtils = btcLib.util.buffer;

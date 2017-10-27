@@ -10,7 +10,7 @@ var expect = chai.expect;
 var sinon = require('sinon');
 var fs = require('fs');
 
-var btcLib = require('btc-lib');
+var btcLib = require('@owstack/btc-lib');
 var _ = btcLib.deps._;
 var P2P = require('../');
 var Peer = P2P.Peer;

@@ -3,7 +3,7 @@
 var should = require('chai').should();
 var P2P = require('../../');
 var builder = P2P.Messages.builder;
-var btcLib = require('btc-lib');
+var btcLib = require('@owstack/btc-lib');
 
 describe('Messages Builder', function() {
 

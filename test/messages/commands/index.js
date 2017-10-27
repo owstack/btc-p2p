@@ -5,7 +5,7 @@ var expect = require('chai').expect;
 var P2P = require('../../../');
 var Messages = P2P.Messages;
 var sinon = require('sinon');
-var btcLib = require('btc-lib');
+var btcLib = require('@owstack/btc-lib');
 
 describe('Command Messages', function() {
 

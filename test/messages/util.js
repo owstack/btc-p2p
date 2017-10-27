@@ -4,7 +4,7 @@
 
 var should = require('chai').should();
 var utils = require('../../lib/messages/utils');
-var btcLib = require('btc-lib');
+var btcLib = require('@owstack/btc-lib');
 var BufferReader = btcLib.encoding.BufferReader;
 
 describe('Message Utils', function() {
