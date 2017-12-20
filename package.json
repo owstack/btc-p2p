@@ -1,6 +1,6 @@
 {
   "name": "@owstack/btc-p2p",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Interface to the bitcoin P2P network for btc.",
   "main": "index.js",
   "scripts": {
@@ -18,7 +18,7 @@
     "url": "https://github.com/owstack/btc-p2p.git"
   },
   "dependencies": {
-    "@owstack/btc-lib": "^0.0.3",
+    "@owstack/btc-lib": "^0.0.4",
     "@owstack/buffers": "^0.0.2",
     "bloom-filter": "^0.2.0",
     "socks5-client": "^0.3.6"
